@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<Context>
+    <Resource name="jdbc/tirocinio2_5"
+        auth="Container"
+        driverClassName="com.mysql.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password="ciro96"
+        defaultAutoCommit="false"
+        url="jdbc:mysql://localhost:3306/tirocinio2_5"/>
+</Context>
