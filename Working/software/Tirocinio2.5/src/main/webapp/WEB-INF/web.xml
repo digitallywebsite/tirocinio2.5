@@ -16,14 +16,6 @@
     <res-auth>Container</res-auth>
   </resource-ref>
   <servlet>
-    <servlet-name>SignupControl</servlet-name>
-    <servlet-class>gestioneutente.control.SignupControl</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>SignupControl</servlet-name>
-    <url-pattern>/signup</url-pattern>
-  </servlet-mapping>
-  <servlet>
     <servlet-name>LoginControl</servlet-name>
     <servlet-class>gestioneutente.control.LoginControl</servlet-class>
   </servlet>
