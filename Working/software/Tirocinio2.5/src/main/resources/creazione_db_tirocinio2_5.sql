@@ -1,6 +1,6 @@
 drop database if exists tirocinio2_5;
 create schema if not exists tirocinio2_5;
-
+ 
 use tirocinio2_5;
 
 create table if not exists studente (
