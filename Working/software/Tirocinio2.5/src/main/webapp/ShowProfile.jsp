@@ -52,7 +52,7 @@
 			      <i class="fa fa-envelope"> <%=teacherTutor.getEmail()%> </i> <br>
 			      <i class="fa fa-map-marker"> <%=teacherTutor.getIndirizzo()%> </i> <br>
 			      <%if(teacherTutor.getSitoweb().length()>0){ %><i class="fa fa-link"> <a href="<%=teacherTutor.getSitoweb()%>" target="_blank">  <%=teacherTutor.getSitoweb()%>  </a> </i><br> <%} %>
-			      Chi Sono: <br>
+			      Il Mio Progetto: <br>
 			      </font>
 			      <font size="3px">
 			      	<div class="review-block-description" style="word-wrap:break-word;"> <%=teacherTutor.getChisono()%> </div>

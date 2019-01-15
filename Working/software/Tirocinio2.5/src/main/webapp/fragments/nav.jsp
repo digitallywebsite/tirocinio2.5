@@ -92,7 +92,6 @@ if(sessione_segreteria!=null)
 				if(!controllo)
 				{%>
     				<li><a href="Login.jsp"> <span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    				<li><a href="Signup.jsp"> <span class="glyphicon glyphicon-user"></span> Registrati</a></li>
     			<%
     			}
     			else
