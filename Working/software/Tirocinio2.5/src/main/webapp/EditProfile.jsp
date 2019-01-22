@@ -142,7 +142,7 @@
 			      <input type="text" maxlength="64" class="form-control" <% if(sessione_teacher.getSitoweb()!=""){ %> value="<%=sessione_teacher.getSitoweb()%>" <%}%> placeholder="Inserisci il sito web" name="website">
 			    </div>
 			    <div class="form-group">
-				  <label for="whoiam">Chi Sono:</label>
+				  <label for="whoiam">Il Mio Progetto:</label>
 				  <textarea type="text" maxlength="512" rows="7" cols="25" class="form-control" required name="whoiam"><%=sessione_teacher.getChisono()%></textarea>
 				</div>
 			    <button type="submit" value="Send" class="btn btn-success">Modifica Profilo</button> 

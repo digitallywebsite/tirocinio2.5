@@ -124,7 +124,7 @@
 			      <input type="text" maxlength="64" class="form-control" placeholder="Inserisci il sito web" name="website">
 			    </div>
 			    <div class="form-group">
-				  <label for="whoiam">Chi Sono:</label>
+				  <label for="whoiam">Il Mio Progetto:</label>
 				  <textarea type="text" maxlength="512" rows="7" cols="25" class="form-control" required placeholder="Breve descrizione di se stesso" name="whoiam"></textarea>
 				</div>
 			    <button type="submit" value="Send" class="btn btn-success">Inserisci Profilo</button> 
